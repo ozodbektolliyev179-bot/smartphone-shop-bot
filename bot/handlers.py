@@ -17,5 +17,7 @@ def start_command(update: Update, context: CallbackContext):
     )
 
 
+
 def send_smartphones_handler(update: Update, context: CallbackContext):
-    pass
+    update.message.reply_text("Smartfonlar ro'yxati bu yerda chiqadi.")
+
